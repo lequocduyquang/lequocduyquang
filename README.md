@@ -27,7 +27,7 @@
 
 ---
 ### My Github Stats:
-[![Github stats](https://github-readme-stats.vercel.app/api?username=lequocduyquang&show_icons=true&title_color=ffc857&icon_color=8ac926&text_color=daf7dc&bg_color=151515&hide=issues&count_private=true&include_all_commits=true)]
+![Quang's github stats](https://github-readme-stats.vercel.app/api?username=lequocduyquang&show_icons=true&title_color=ffc857&icon_color=8ac926&text_color=daf7dc&bg_color=151515&hide=issues&count_private=true&include_all_commits=true)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lequocduyquang&layout=compact&text_color=daf7dc&bg_color=151515&hide=css,html,php)](https://github.com/lequocduyquang/github-readme-stats)
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=lequocduyquang&theme=dark)](https://git.io/streak-stats)
 
