@@ -1,47 +1,59 @@
-# Hi there! <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="35" />
-<p align="center">
-<a href="https://twitter.com/quangle_98" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="apoorv__tyagi" height="30" width="30" /></a>&nbsp;
-<a href="https://linkedin.com/in/quang-le-448606197/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="lequocduyquang" height="30" width="30" /></a>&nbsp;
-<a href="https://www.buymeacoffee.com/quangle98"><img align="center" alt="Buy me a Coffee" width="30px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/buymeacoffee.svg" /></a>
-</p>
+# Quang Le
 
-![](https://camo.githubusercontent.com/992babdffd8c74a1502de375fbdf7e4d54773242/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f53576f536b4e36447854737a71494b4571762f67697068792e676966)
+**Software Engineer · Backend & ML Systems** — hipages Group (ASX-listed), via CBTW
+Ho Chi Minh City · working with Sydney
 
-### <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Developer.gif" width="45" /> About Me:
-- 🏦 I'm Software Engineer with passion for learning, working and building products that make value for all users. 
-      <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
-- 📝 I regulary write technical articles for [hashnode](https://quangle.hashnode.dev) and [medium](https://medium.com/@quangle98)
-- 💻 I use daily: **.js**, **.ts**, **.sql**
-- 💬 Talk to me about AI, system, database, blockchains and startups
-- ⚡ Fun fact: Happy for life
-- 🧑‍💻 Tech I work on :
+I build the systems that price and match jobs on Australia's largest online trade marketplace:
+the Matching Engine, AI value-based pricing on Amazon Bedrock, and ML model serving on Databricks.
 
-<p align="center">
-      <img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg" alt="Nodejs" width="55" height="55"/>
-      <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="GIT" width="55" height="55"/> 
-      <img src="https://www.vectorlogo.zone/logos/docker/docker-official.svg" alt="docker" width="60" height="50"/>
-      <img src="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg" alt="aws" width="45" height="55"/>
-      <img src="https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg" alt="mongodb" width="45" height="55"/>
-</p>
+[Portfolio](https://quanglequocduy.github.io/portfolio/) ·
+[LinkedIn](https://www.linkedin.com/in/quang-le-448606197/) ·
+[Writing](https://quangle.hashnode.dev) ·
+[Hugging Face](https://huggingface.co/quanglequocduy) ·
+[Email](mailto:duyquangbtx@gmail.com)
 
----
-### My Github Stats:
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lequocduyquang&layout=compact&text_color=daf7dc&bg_color=151515&hide=css,html,php)](https://github.com/lequocduyquang/github-readme-stats)
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=lequocduyquang&theme=dark)](https://git.io/streak-stats)
+## Currently
 
-<!--START_SECTION:waka-->
+- **Primary owner of the Matching Engine** (NestJS, PostgreSQL, Kafka CDC, Temporal) — 4× end-to-end latency
+  reduction through LRU caching, N+1 elimination, and decoupling from the legacy PHP monolith.
+- **Lead engineer on AI Value-Based Pricing** — Claude on Amazon Bedrock values each job and derives lead price;
+  Phase 1 A/B read: +15.4% CV/job, +19.9% price/claim, ~$2.3M/yr projected.
+- **MLOps owner for model serving on Databricks** — Databricks Asset Bundles CI/CD with staging gate, MLflow registry,
+  per-category shadow → A/B → cutover for Dynamic Pricing V2; retrained and served the job-sizing models.
+- **Led the team's EKS migration** (legacy KOPS → `hip-eks-prod`) — F5 ingress, IRSA, Kafka mTLS, Bedrock IAM,
+  dark deploys across marketplace, leads, and ML serving.
+- 720+ merged PRs across 20+ repositories · 27 technical design docs · 3 P2 incidents led to resolution.
 
-<!--END_SECTION:waka-->
+## Selected work
 
----
+| Project | Notes |
+|---|---|
+| [xray-diagnosis-ai](https://github.com/lequocduyquang/xray-diagnosis-ai) | Pediatric chest X-ray pneumonia diagnosis for Children's Hospital 2 (HCMC) — ResNet50 / DenseNet121, volunteer project |
+| [xray-diagnosis-cam](https://github.com/lequocduyquang/xray-diagnosis-cam) | Eigen-CAM explainability: class-agnostic heatmaps so clinicians can see what the model attends to |
+| [xray-ui](https://github.com/lequocduyquang/xray-ui) | Clinician-facing UI for the diagnosis system (Remix, TypeScript) |
+| [micro-kafka](https://github.com/lequocduyquang/micro-kafka) | Event-driven microservices with Kafka and Node.js |
+| [microgo](https://github.com/lequocduyquang/microgo) | Go microservices with Chi, PostgreSQL, MongoDB, RabbitMQ |
+| [coffeeN](https://github.com/lequocduyquang/coffeeN) | Design patterns by example in Go |
 
-### <img src = "https://media1.giphy.com/media/JZ40cnfnN11KycrvMF/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width = '23' /> My Latest Blog posts:
-<!-- BLOG-POST-LIST:START -->
+## Stack
+
+| | |
+|---|---|
+| **Languages** | TypeScript, Go, Python, SQL |
+| **Backend** | Node.js, NestJS, Kafka, Temporal, PostgreSQL, Redis |
+| **AI / ML** | Amazon Bedrock, OpenAI, Databricks ML, MLflow, Agentic RAG, GrowthBook experimentation |
+| **Infrastructure** | AWS, Kubernetes / EKS, ArgoCD, Docker, Terraform |
+| **Observability** | OpenTelemetry, Honeycomb, Grafana |
+
+## Certifications & recognition
+
+- Databricks Certified Machine Learning Engineer Associate (2026)
+- Databricks Certified Generative AI Engineer Associate (2025)
+- Edison Award · Inspirational Team Member Award — hipages Group
+- B.Sc. Software Engineering — VNUHCM University of Science
+
+## Writing
+
 - [The beauty of Orchestration Saga in Microservices](https://quangle.hashnode.dev/the-beauty-of-orchestration-saga-in-microservices)
 - [The beauty of Kafka in Microservices system](https://quangle.hashnode.dev/the-beauty-of-kafka-in-microservices-system)
-<!-- BLOG-POST-LIST:END -->
-
-▶ [... view more](https://quangle.hashnode.dev/)
-
----
-
+- More at [quangle.hashnode.dev](https://quangle.hashnode.dev)
